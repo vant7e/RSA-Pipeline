@@ -5,7 +5,7 @@
 # >>> python batch_processing.py --subjects sub-20284 sub-20285 --tasks overt beginMatch
 # =============================================================
 #--raw     Convert CTF to raw.fif
-#--trans   Coregistration (automatic or manual with GUI)
+#--trans   Create transformation matrix
 #--epochs  Create epochs from events
 #--evoked  Compute evoked response
 #--fwd     Compute forward model
@@ -13,7 +13,7 @@
 #--stc     Apply inverse to epochs → STCs
 #--None    Appky all functions
 # =============================================================
-# Please making sure MNE and other dependencies are installed in your environment (see requirement.txt or environment.yaml)
+# Please making sure MNE and other dependencies are installed in your environment (see requirnment.txt)
 # /your_project/
 #  └── subject/
 #      └── sub-200001/
@@ -53,7 +53,6 @@ class StreamToLogger(object):
 def setup_logging(log_path):
     """
     Sets up logging to both a file and the console.
-    Also captures stdout and stderr.
     """
     for handler in logging.root.handlers[:]:
         logging.root.removeHandler(handler)
@@ -67,11 +66,6 @@ def setup_logging(log_path):
             logging.StreamHandler(sys.stdout)
         ]
     )
-
-    # Redirect stdout/stderr to logger
-    logger = logging.getLogger()
-    sys.stdout = StreamToLogger(logger, logging.INFO)
-    sys.stderr = StreamToLogger(logger, logging.ERROR)
 
 # Convert .ds file to raw.fif
 def run_raw(subject, data_dir, task):
@@ -258,8 +252,8 @@ def run_forward(subject, data_dir, task):
     """
     raw_fif = os.path.join(data_dir, f"{subject}_{task}_raw.fif")
     trans = os.path.join(data_dir, f"{subject}_{task}_trans.fif")
-    src = os.path.join(data_dir, "bem", f"{subject}-oct-6-src.fif") # Check file name in bem folder and change the setting
-    bem = os.path.join(data_dir, "bem", f"{subject}-bem-sol.fif") # Check file name in bem folder and change the setting
+    src = os.path.join(data_dir, "bem", f"{subject}-oct-6-src.fif")
+    bem = os.path.join(data_dir, "bem", f"{subject}-bem-sol.fif")
     fwd_out = os.path.join(data_dir, f"{subject}_{task}_fwd.fif")
     raw = mne.io.read_raw_fif(raw_fif, preload=False)
 
@@ -339,8 +333,15 @@ if __name__ == "__main__":
             # base_dir = os.path.join("subject", subject) # Default Path
             base_dir = os.path.join("/Users/vant7e/Documents/RRI/rsa_analysis/subject", subject) #or you can change the BASE PATHWAY IN HERE
             os.makedirs(base_dir, exist_ok=True)
-            setup_logging(os.path.join(base_dir, f"{subject}_{task}_log.txt"))
+
+            log_dir = os.path.join(os.getcwd(), subject, "logs")  # <-- FIXED here
+            os.makedirs(log_dir, exist_ok=True)
+
+            log_path = os.path.join(log_dir, f"{subject}_{task}_log.txt")
+            setup_logging(log_path)
+            
             if not any([args.raw, args.trans, args.epochs, args.evoked, args.fwd, args.inv, args.stc]):
+                logging.info("[INFO] No specific flags given. Running full pipeline...")
                 run_raw(subject, base_dir, task)
                 run_trans(subject, base_dir, task)
                 run_epochs(subject, base_dir, task)
