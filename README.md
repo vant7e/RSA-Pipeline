@@ -1,7 +1,5 @@
 # MNE-Python Preprocessing Pipeline
 
-This repository contains a modular, CLI-accessible preprocessing pipeline for MEG/EEG data using MNE-Python. The pipeline handles key steps from raw data conversion to source reconstruction and logging.
-
 ## Directory Structure
 
 ```
