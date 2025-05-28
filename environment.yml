@@ -1,4 +1,4 @@
-name: thingsvision
+name: rsapipeline
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main
@@ -248,4 +248,4 @@ dependencies:
       - xlsxwriter==3.2.3
       - xplique==1.4.0
       - zipp==3.21.0
-prefix: /Users/vant7e/miniconda3/envs/thingsvision
+prefix: /Users/miniconda3/envs/thingsvision
