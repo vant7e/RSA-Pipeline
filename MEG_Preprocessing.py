@@ -34,9 +34,6 @@ from datetime import datetime
 from mne.viz import plot_sensors
 
 class StreamToLogger(object):
-    """
-    Redirects writes to logger instance.
-    """
     def __init__(self, logger, level):
         self.logger = logger
         self.level = level
@@ -46,17 +43,13 @@ class StreamToLogger(object):
         for line in buf.rstrip().splitlines():
             self.logger.log(self.level, line.rstrip())
 
-    def flush(self):  # Needed for compatibility
+    def flush(self):
         pass
-    
-# Setup logging
+
 def setup_logging(log_path):
     """
-    Sets up logging to both a file and the console.
+    Redirects stdout, stderr, and logging to a log file and terminal.
     """
-    for handler in logging.root.handlers[:]:
-        logging.root.removeHandler(handler)
-
     logging.basicConfig(
         level=logging.INFO,
         format='[%(asctime)s] %(levelname)s: %(message)s',
@@ -66,6 +59,10 @@ def setup_logging(log_path):
             logging.StreamHandler(sys.stdout)
         ]
     )
+    stdout_logger = logging.getLogger('STDOUT')
+    sl_out = StreamToLogger(stdout_logger, logging.INFO)
+    sys.stdout = sl_out
+    sys.stderr = sl_out
 
 # Convert .ds file to raw.fif
 def run_raw(subject, data_dir, task):
@@ -334,7 +331,7 @@ if __name__ == "__main__":
             base_dir = os.path.join("/Users/vant7e/Documents/RRI/rsa_analysis/subject", subject) #or you can change the BASE PATHWAY IN HERE
             os.makedirs(base_dir, exist_ok=True)
 
-            log_dir = os.path.join(os.getcwd(), subject, "logs")  # <-- FIXED here
+            log_dir = os.path.join(base_dir, "logs")  
             os.makedirs(log_dir, exist_ok=True)
 
             log_path = os.path.join(log_dir, f"{subject}_{task}_log.txt")
