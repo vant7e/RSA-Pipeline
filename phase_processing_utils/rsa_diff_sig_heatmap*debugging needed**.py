@@ -8,7 +8,7 @@ import pandas as pd
 base_path = '/Users/vant7e/Documents/RRI/rsa_analysis/subject/sensor_level'
 task1 = 'beginMatch'
 task2 = 'overt'
-model = 'clip'
+model = ['clip', 'cmu']
 bands = ['theta', 'alpha', 'beta']
 band_freqs = {
     'theta': np.arange(3, 8),  # 3-7 Hz
@@ -53,14 +53,17 @@ def load_rsa_pval_freq(task, band, model):
 
 # ========== Multi-Task Loop ========== #
 models = ['cmu', 'clip']
+print(f"Models to process: {models}")
 
 for current_model in models:
     print(f"\n{'='*60}")
     print(f"Processing model: {current_model.upper()}")
+    print(f"Current model variable: '{current_model}'")
     print(f"{'='*60}")
     
     # Reset data containers for each model
     rsa_all, pval_all, freq_all = [], [], []
+    p1_all, p2_all = [], []  # Store original p-values for each task
     
     for band in bands:
         print(f"\nProcessing {band} band...")
@@ -82,6 +85,10 @@ for current_model in models:
         rsa_all.append(rsa_diff)
         pval_all.append(p_combined)
         freq_all.append(freqs1)  # Use freqs from task1
+        
+        # Store original p-values for each task
+        p1_all.append(p1)  # beginMatch p-values
+        p2_all.append(p2)  # overt p-values
 
     if not rsa_all:
         print(f"No data loaded for model {current_model}! Check file paths and data availability.")
@@ -90,6 +97,8 @@ for current_model in models:
     # 合并所有频段
     rsa_diff = np.vstack(rsa_all)
     pvals = np.vstack(pval_all)
+    p1_combined = np.vstack(p1_all)  # beginMatch p-values
+    p2_combined = np.vstack(p2_all)  # overt p-values
     all_freqs = np.concatenate(freq_all)
 
     print(f"\nFinal data shapes for {current_model}:")
@@ -230,9 +239,73 @@ for current_model in models:
     out_fig = out_txt.replace('.txt', '.png')
 
     print(f"\nSaving results for {current_model}...")
-    np.savetxt(out_txt, rsa_sig)
+    print(f"Debug - current_model: '{current_model}'")
+    print(f"Debug - out_txt: '{out_txt}'")
+    
+    # Save detailed results with time and frequency information
+    with open(out_txt, 'w') as f:
+        # Write header information
+        f.write(f"# RSA Difference Analysis: {task2} - {task1} ({current_model.upper()})\n")
+        f.write(f"# Time window: {times[0]*1000:.1f} to {times[-1]*1000:.1f} ms\n")
+        f.write(f"# Frequency range: {all_freqs[0]:.1f} to {all_freqs[-1]:.1f} Hz\n")
+        f.write(f"# Significant points: {n_sig} out of {sig_mask.size} total\n")
+        f.write(f"# Data shape: {rsa_sig.shape[0]} frequencies × {rsa_sig.shape[1]} time points\n\n")
+        
+        # Write time labels (first row)
+        f.write("Time(ms)")
+        for t in times * 1000:  # Convert to ms
+            f.write(f"\t{t:.1f}")
+        f.write("\n")
+        
+        # Write frequency labels and data
+        for i, freq in enumerate(all_freqs):
+            f.write(f"{freq:.1f}")
+            for j, t in enumerate(times * 1000):
+                value = rsa_sig[i, j]
+                if np.isnan(value):
+                    f.write("\tNaN")
+                else:
+                    f.write(f"\t{value:.6f}")
+            f.write("\n")
+    
+    # Also save a summary of significant points
+    out_summary = f'sig_rsa_diff_{task2}_minus_{task1}_{current_model}_summary.txt'
+    with open(out_summary, 'w') as f:
+        f.write(f"# Significant RSA Difference Points: {task2} - {task1} ({current_model.upper()})\n")
+        f.write(f"# Total significant points: {n_sig}\n")
+        f.write(f"# RSA_Difference = {task2} - {task1}\n")
+        f.write(f"# P_combined = max(P_{task1}, P_{task2}) for conservative approach\n\n")
+        f.write("Frequency(Hz)\tTime(ms)\tRSA_Difference\tP_beginMatch\tP_overt\tP_combined = max(p1, p2)\n")
+        
+        if n_sig > 0:
+            sig_indices = np.where(sig_mask)
+            for i in range(len(sig_indices[0])):
+                freq_idx = sig_indices[0][i]
+                time_idx = sig_indices[1][i]
+                freq = all_freqs[freq_idx]
+                time_ms = times[time_idx] * 1000
+                rsa_val = rsa_diff[freq_idx, time_idx]
+                p_combined = pvals[freq_idx, time_idx]  # This is max(p1, p2)
+                
+                # We need to get the original p1 and p2 values
+                # Find which band this frequency belongs to
+                band_idx = None
+                for b_idx, band in enumerate(bands):
+                    if freq in freq_all[b_idx]:
+                        band_idx = b_idx
+                        break
+                
+                # Get the original p1 and p2 values for this frequency and time point
+                p1_val = p1_combined[freq_idx, time_idx]  # beginMatch p-value
+                p2_val = p2_combined[freq_idx, time_idx]  # overt p-value
+                
+                f.write(f"{freq:.1f}\t{time_ms:.1f}\t{rsa_val:.6f}\t{p1_val:.6f}\t{p2_val:.6f}\t{p_combined:.6f}\n")
+        else:
+            f.write("No significant points found\n")
+    
     plt.savefig(out_fig, dpi=300, bbox_inches='tight')
     print(f"Saved: {out_txt}")
+    print(f"Saved: {out_summary}")
     print(f"Saved: {out_fig}")
 
     plt.show()
