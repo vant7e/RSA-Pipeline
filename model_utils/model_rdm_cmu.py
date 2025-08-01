@@ -6,16 +6,13 @@ from sklearn.metrics.pairwise import cosine_distances
 from nltk.corpus import cmudict
 import nltk
 
-# === 文件路径设置 ===
 txt_file = "/Users/vant7e/Documents/RRI/rsa_analysis/Tiana_PicNaming_MEG_exps_202301_USETHIS/Overt_naming/lists/overt.txt"
 output_csv = f"rdm_cmu_overt.csv"
 output_npy = f"rdm_cmu_overt.npy"
 
-# === 初始化 ===
 cmu = cmudict.dict()
 ft = panphon.FeatureTable()
 
-# === 提取图片名（无后缀）作为 stimulus label ===
 def extract_labels(txt_path):
     with open(txt_path, 'r') as f:
         lines = [line.strip() for line in f if line.strip()]
@@ -23,7 +20,7 @@ def extract_labels(txt_path):
 
 stimuli = extract_labels(txt_file)
 
-# === ARPAbet → IPA 映射表（完整）===
+# === ARPAbet → IPA===
 arpabet2ipa = {
     'AA': 'ɑ', 'AE': 'æ', 'AH': 'ʌ', 'AO': 'ɔ', 'AW': 'aʊ', 'AY': 'aɪ',
     'B': 'b', 'CH': 'tʃ', 'D': 'd', 'DH': 'ð', 'EH': 'ɛ', 'ER': 'ɝ', 'EY': 'eɪ',
@@ -32,7 +29,7 @@ arpabet2ipa = {
     'P': 'p', 'R': 'ɹ', 'S': 's', 'SH': 'ʃ', 'T': 't', 'TH': 'θ', 'UH': 'ʊ',
     'UW': 'u', 'V': 'v', 'W': 'w', 'Y': 'j', 'Z': 'z', 'ZH': 'ʒ'
 }
-# === 手动添加缺失词的发音 ===
+# === Manual adding - Treasure/beanie/seahorse that can not be found in APPAbet ===
 cmu["beanie"] = [["B", "IY1", "N", "IY0"]]
 cmu["treature"] = [["T", "R", "EH1", "ZH", "ER0"]]
 cmu["seahorse"] = [["S", "IY1", "HH", "AO1", "R", "S"]]
@@ -44,7 +41,7 @@ def arpabet_to_ipa(arpabet_phonemes):
         ipa_seq.append(arpabet2ipa.get(phone, ''))  # empty string if not found
     return ''.join(ipa_seq)
 
-# === 提取特征向量 & 构建 RDM ===
+# === RDM ===
 vectors = []
 valid_labels = []
 
@@ -69,7 +66,7 @@ if not vectors:
 vectors = np.stack(vectors)
 rdm = cosine_distances(vectors)
 
-# === 保存 ===
+# === Save ===
 pd.DataFrame(rdm, index=valid_labels, columns=valid_labels).to_csv(output_csv)
 np.save(output_npy, rdm)
 
