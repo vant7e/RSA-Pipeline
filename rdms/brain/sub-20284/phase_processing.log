@@ -1,0 +1,10 @@
+2025-07-28 17:20:14,746 INFO: === Processing sub-20284 ===
+2025-07-28 17:20:15,030 INFO: User-defined frequencies: [3]
+2025-07-28 17:20:15,031 INFO: Processing 1 frequencies in 1 chunks (chunk size: 5)
+2025-07-28 17:20:15,065 INFO: Processing frequencies: [3]
+2025-07-28 17:20:16,229 INFO: Using full time window: -0.200 to 0.800 s
+2025-07-28 17:20:17,106 INFO:   Done frequency 3.0 Hz (1/1)
+2025-07-28 17:20:17,113 INFO: Saved chunk to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_3-3Hz.npy
+2025-07-28 17:20:17,114 INFO: Merging 1 chunk files into a single brain_rdms.npy...
+2025-07-28 17:20:17,114 INFO:   Loading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_3-3Hz.npy
+2025-07-28 17:20:17,129 INFO: Saved combined RDMs to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms.npy (shape: (1, 1201, 72, 72))
