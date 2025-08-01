@@ -1,0 +1,725 @@
+(thingsvision) (base) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Docum
+ents/RRI/rsa_analysis/subject/sensor_level/phase_overall.py
+Reading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_withmeta_fixed_epo.fif ...
+    Read 5 compensation matrices
+    Found the data of interest:
+        t =    -200.00 ...     800.00 ms
+        5 CTF compensation matrices available
+Adding metadata with 8 columns
+72 matching events found
+No baseline correction applied
+0 projection items activated
+Reading inverse operator decomposition from /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_inv.fif...
+    Reading inverse operator info...
+    [done]
+    Reading inverse operator decomposition...
+    [done]
+    274 x 274 full covariance (kind = 1) found.
+    Noise covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 2) found.
+    Source covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 6) found.
+    Orientation priors read.
+    24588 x 24588 diagonal covariance (kind = 5) found.
+    Depth priors read.
+    Did not find the desired covariance matrix (kind = 3)
+    Reading a source space...
+    [done]
+    Reading a source space...
+    [done]
+    2 source spaces read
+    Source spaces transformed to the inverse solution coordinate frame
+Removing 5 compensators from info because not all compensation channels were picked.
+Preparing the inverse operator for use...
+    Scaled noise and source covariance from nave = 1 to nave = 1
+    Created the regularized inverter
+    The projection vectors do not apply to these channels.
+    Created the whitener using a noise covariance matrix with rank 274 (0 small eigenvalues omitted)
+    Computing noise-normalization factors (dSPM)...
+[done]
+Picked 274 channels from the data
+Computing inverse...
+    Eigenleads need to be weighted ...
+Processing epoch : 1 / 72
+Processing epoch : 2 / 72
+Processing epoch : 3 / 72
+Processing epoch : 4 / 72
+Processing epoch : 5 / 72
+Processing epoch : 6 / 72
+Processing epoch : 7 / 72
+Processing epoch : 8 / 72
+Processing epoch : 9 / 72
+Processing epoch : 10 / 72
+Processing epoch : 11 / 72
+Processing epoch : 12 / 72
+Processing epoch : 13 / 72
+Processing epoch : 14 / 72
+Processing epoch : 15 / 72
+Processing epoch : 16 / 72
+Processing epoch : 17 / 72
+Processing epoch : 18 / 72
+Processing epoch : 19 / 72
+Processing epoch : 20 / 72
+Processing epoch : 21 / 72
+Processing epoch : 22 / 72
+Processing epoch : 23 / 72
+Processing epoch : 24 / 72
+Processing epoch : 25 / 72
+Processing epoch : 26 / 72
+Processing epoch : 27 / 72
+Processing epoch : 28 / 72
+Processing epoch : 29 / 72
+Processing epoch : 30 / 72
+Processing epoch : 31 / 72
+Processing epoch : 32 / 72
+Processing epoch : 33 / 72
+Processing epoch : 34 / 72
+Processing epoch : 35 / 72
+Processing epoch : 36 / 72
+Processing epoch : 37 / 72
+Processing epoch : 38 / 72
+Processing epoch : 39 / 72
+Processing epoch : 40 / 72
+Processing epoch : 41 / 72
+Processing epoch : 42 / 72
+Processing epoch : 43 / 72
+Processing epoch : 44 / 72
+Processing epoch : 45 / 72
+Processing epoch : 46 / 72
+Processing epoch : 47 / 72
+Processing epoch : 48 / 72
+Processing epoch : 49 / 72
+Processing epoch : 50 / 72
+Processing epoch : 51 / 72
+Processing epoch : 52 / 72
+Processing epoch : 53 / 72
+Processing epoch : 54 / 72
+Processing epoch : 55 / 72
+Processing epoch : 56 / 72
+Processing epoch : 57 / 72
+Processing epoch : 58 / 72
+Processing epoch : 59 / 72
+Processing epoch : 60 / 72
+Processing epoch : 61 / 72
+Processing epoch : 62 / 72
+Processing epoch : 63 / 72
+Processing epoch : 64 / 72
+Processing epoch : 65 / 72
+Processing epoch : 66 / 72
+Processing epoch : 67 / 72
+Processing epoch : 68 / 72
+Processing epoch : 69 / 72
+Processing epoch : 70 / 72
+Processing epoch : 71 / 72
+Processing epoch : 72 / 72
+[done]
+Removing 5 compensators from info because not all compensation channels were picked.
+Computing brain RDMs for 11 frequencies and 1201 time points...
+  Done frequency 20.0 Hz (1/11)
+  Done frequency 21.0 Hz (2/11)
+  Done frequency 22.0 Hz (3/11)
+  Done frequency 23.0 Hz (4/11)
+  Done frequency 24.0 Hz (5/11)
+  Done frequency 25.0 Hz (6/11)
+  Done frequency 26.0 Hz (7/11)
+  Done frequency 27.0 Hz (8/11)
+  Done frequency 28.0 Hz (9/11)
+  Done frequency 29.0 Hz (10/11)
+  Done frequency 30.0 Hz (11/11)
+  All brain RDMs saved to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_beta_2.npy
+(thingsvision) (base) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Docum
+ents/RRI/rsa_analysis/subject/sensor_level/phase_overall.py
+Reading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_withmeta_fixed_epo.fif ...
+    Read 5 compensation matrices
+    Found the data of interest:
+        t =    -200.00 ...     800.00 ms
+        5 CTF compensation matrices available
+Adding metadata with 8 columns
+72 matching events found
+No baseline correction applied
+0 projection items activated
+Reading inverse operator decomposition from /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_inv.fif...
+    Reading inverse operator info...
+    [done]
+    Reading inverse operator decomposition...
+    [done]
+    274 x 274 full covariance (kind = 1) found.
+    Noise covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 2) found.
+    Source covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 6) found.
+    Orientation priors read.
+    24588 x 24588 diagonal covariance (kind = 5) found.
+    Depth priors read.
+    Did not find the desired covariance matrix (kind = 3)
+    Reading a source space...
+    [done]
+    Reading a source space...
+    [done]
+    2 source spaces read
+    Source spaces transformed to the inverse solution coordinate frame
+Removing 5 compensators from info because not all compensation channels were picked.
+Preparing the inverse operator for use...
+    Scaled noise and source covariance from nave = 1 to nave = 1
+    Created the regularized inverter
+    The projection vectors do not apply to these channels.
+    Created the whitener using a noise covariance matrix with rank 274 (0 small eigenvalues omitted)
+    Computing noise-normalization factors (dSPM)...
+[done]
+Picked 274 channels from the data
+Computing inverse...
+    Eigenleads need to be weighted ...
+Processing epoch : 1 / 72
+Processing epoch : 2 / 72
+Processing epoch : 3 / 72
+Processing epoch : 4 / 72
+Processing epoch : 5 / 72
+Processing epoch : 6 / 72
+Processing epoch : 7 / 72
+Processing epoch : 8 / 72
+Processing epoch : 9 / 72
+Processing epoch : 10 / 72
+Processing epoch : 11 / 72
+Processing epoch : 12 / 72
+Processing epoch : 13 / 72
+Processing epoch : 14 / 72
+Processing epoch : 15 / 72
+Processing epoch : 16 / 72
+Processing epoch : 17 / 72
+Processing epoch : 18 / 72
+Processing epoch : 19 / 72
+Processing epoch : 20 / 72
+Processing epoch : 21 / 72
+Processing epoch : 22 / 72
+Processing epoch : 23 / 72
+Processing epoch : 24 / 72
+Processing epoch : 25 / 72
+Processing epoch : 26 / 72
+Processing epoch : 27 / 72
+Processing epoch : 28 / 72
+Processing epoch : 29 / 72
+Processing epoch : 30 / 72
+Processing epoch : 31 / 72
+Processing epoch : 32 / 72
+Processing epoch : 33 / 72
+Processing epoch : 34 / 72
+Processing epoch : 35 / 72
+Processing epoch : 36 / 72
+Processing epoch : 37 / 72
+Processing epoch : 38 / 72
+Processing epoch : 39 / 72
+Processing epoch : 40 / 72
+Processing epoch : 41 / 72
+Processing epoch : 42 / 72
+Processing epoch : 43 / 72
+Processing epoch : 44 / 72
+Processing epoch : 45 / 72
+Processing epoch : 46 / 72
+Processing epoch : 47 / 72
+Processing epoch : 48 / 72
+Processing epoch : 49 / 72
+Processing epoch : 50 / 72
+Processing epoch : 51 / 72
+Processing epoch : 52 / 72
+Processing epoch : 53 / 72
+Processing epoch : 54 / 72
+Processing epoch : 55 / 72
+Processing epoch : 56 / 72
+Processing epoch : 57 / 72
+Processing epoch : 58 / 72
+Processing epoch : 59 / 72
+Processing epoch : 60 / 72
+Processing epoch : 61 / 72
+Processing epoch : 62 / 72
+Processing epoch : 63 / 72
+Processing epoch : 64 / 72
+Processing epoch : 65 / 72
+Processing epoch : 66 / 72
+Processing epoch : 67 / 72
+Processing epoch : 68 / 72
+Processing epoch : 69 / 72
+Processing epoch : 70 / 72
+Processing epoch : 71 / 72
+Processing epoch : 72 / 72
+[done]
+Removing 5 compensators from info because not all compensation channels were picked.
+Computing brain RDMs for 7 frequencies and 1201 time points...
+  Done frequency 13.0 Hz (1/7)
+  Done frequency 14.0 Hz (2/7)
+  Done frequency 15.0 Hz (3/7)
+  Done frequency 16.0 Hz (4/7)
+  Done frequency 17.0 Hz (5/7)
+  Done frequency 18.0 Hz (6/7)
+  Done frequency 19.0 Hz (7/7)
+✅ All brain RDMs saved to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_beta_1.npy
+(thingsvision) (base) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Docum
+ents/RRI/rsa_analysis/subject/sensor_level/phase_overall.py
+Reading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_withmeta_fixed_epo.fif ...
+    Read 5 compensation matrices
+    Found the data of interest:
+        t =    -200.00 ...     800.00 ms
+        5 CTF compensation matrices available
+Adding metadata with 8 columns
+72 matching events found
+No baseline correction applied
+0 projection items activated
+Reading inverse operator decomposition from /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_inv.fif...
+    Reading inverse operator info...
+    [done]
+    Reading inverse operator decomposition...
+    [done]
+    274 x 274 full covariance (kind = 1) found.
+    Noise covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 2) found.
+    Source covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 6) found.
+    Orientation priors read.
+    24588 x 24588 diagonal covariance (kind = 5) found.
+    Depth priors read.
+    Did not find the desired covariance matrix (kind = 3)
+    Reading a source space...
+    [done]
+    Reading a source space...
+    [done]
+    2 source spaces read
+    Source spaces transformed to the inverse solution coordinate frame
+Removing 5 compensators from info because not all compensation channels were picked.
+Preparing the inverse operator for use...
+    Scaled noise and source covariance from nave = 1 to nave = 1
+    Created the regularized inverter
+    The projection vectors do not apply to these channels.
+    Created the whitener using a noise covariance matrix with rank 274 (0 small eigenvalues omitted)
+    Computing noise-normalization factors (dSPM)...
+[done]
+Picked 274 channels from the data
+Computing inverse...
+    Eigenleads need to be weighted ...
+Processing epoch : 1 / 72
+Processing epoch : 2 / 72
+Processing epoch : 3 / 72
+Processing epoch : 4 / 72
+Processing epoch : 5 / 72
+Processing epoch : 6 / 72
+Processing epoch : 7 / 72
+Processing epoch : 8 / 72
+Processing epoch : 9 / 72
+Processing epoch : 10 / 72
+Processing epoch : 11 / 72
+Processing epoch : 12 / 72
+Processing epoch : 13 / 72
+Processing epoch : 14 / 72
+Processing epoch : 15 / 72
+Processing epoch : 16 / 72
+Processing epoch : 17 / 72
+Processing epoch : 18 / 72
+Processing epoch : 19 / 72
+Processing epoch : 20 / 72
+Processing epoch : 21 / 72
+Processing epoch : 22 / 72
+Processing epoch : 23 / 72
+Processing epoch : 24 / 72
+Processing epoch : 25 / 72
+Processing epoch : 26 / 72
+Processing epoch : 27 / 72
+Processing epoch : 28 / 72
+Processing epoch : 29 / 72
+Processing epoch : 30 / 72
+Processing epoch : 31 / 72
+Processing epoch : 32 / 72
+Processing epoch : 33 / 72
+Processing epoch : 34 / 72
+Processing epoch : 35 / 72
+Processing epoch : 36 / 72
+Processing epoch : 37 / 72
+Processing epoch : 38 / 72
+Processing epoch : 39 / 72
+Processing epoch : 40 / 72
+Processing epoch : 41 / 72
+Processing epoch : 42 / 72
+Processing epoch : 43 / 72
+Processing epoch : 44 / 72
+Processing epoch : 45 / 72
+Processing epoch : 46 / 72
+Processing epoch : 47 / 72
+Processing epoch : 48 / 72
+Processing epoch : 49 / 72
+Processing epoch : 50 / 72
+Processing epoch : 51 / 72
+Processing epoch : 52 / 72
+Processing epoch : 53 / 72
+Processing epoch : 54 / 72
+Processing epoch : 55 / 72
+Processing epoch : 56 / 72
+Processing epoch : 57 / 72
+Processing epoch : 58 / 72
+Processing epoch : 59 / 72
+Processing epoch : 60 / 72
+Processing epoch : 61 / 72
+Processing epoch : 62 / 72
+Processing epoch : 63 / 72
+Processing epoch : 64 / 72
+Processing epoch : 65 / 72
+Processing epoch : 66 / 72
+Processing epoch : 67 / 72
+Processing epoch : 68 / 72
+Processing epoch : 69 / 72
+Processing epoch : 70 / 72
+Processing epoch : 71 / 72
+Processing epoch : 72 / 72
+[done]
+Removing 5 compensators from info because not all compensation channels were picked.
+Computing brain RDMs for 5 frequencies and 1201 time points...
+  Done frequency 8.0 Hz (1/5)
+  Done frequency 9.0 Hz (2/5)
+  Done frequency 10.0 Hz (3/5)
+  Done frequency 11.0 Hz (4/5)
+  Done frequency 12.0 Hz (5/5)
+✅ All brain RDMs saved to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_alpha.npy
+(thingsvision) (base) vant7e@Vantes-MacBook-Air rsa_analysis % 
+(thingsvision) (base) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Docum
+ents/RRI/rsa_analysis/subject/sensor_level/phase_overall.py
+Reading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_withmeta_fixed_epo.fif ...
+    Read 5 compensation matrices
+    Found the data of interest:
+        t =    -200.00 ...     800.00 ms
+        5 CTF compensation matrices available
+Adding metadata with 8 columns
+72 matching events found
+No baseline correction applied
+0 projection items activated
+Reading inverse operator decomposition from /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/sub-20284_pic_onset_beginMatch_inv.fif...
+    Reading inverse operator info...
+    [done]
+    Reading inverse operator decomposition...
+    [done]
+    274 x 274 full covariance (kind = 1) found.
+    Noise covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 2) found.
+    Source covariance matrix read.
+    24588 x 24588 diagonal covariance (kind = 6) found.
+    Orientation priors read.
+    24588 x 24588 diagonal covariance (kind = 5) found.
+    Depth priors read.
+    Did not find the desired covariance matrix (kind = 3)
+    Reading a source space...
+    [done]
+    Reading a source space...
+    [done]
+    2 source spaces read
+    Source spaces transformed to the inverse solution coordinate frame
+Removing 5 compensators from info because not all compensation channels were picked.
+Preparing the inverse operator for use...
+    Scaled noise and source covariance from nave = 1 to nave = 1
+    Created the regularized inverter
+    The projection vectors do not apply to these channels.
+    Created the whitener using a noise covariance matrix with rank 274 (0 small eigenvalues omitted)
+    Computing noise-normalization factors (dSPM)...
+[done]
+Picked 274 channels from the data
+Computing inverse...
+    Eigenleads need to be weighted ...
+Processing epoch : 1 / 72
+Processing epoch : 2 / 72
+Processing epoch : 3 / 72
+Processing epoch : 4 / 72
+Processing epoch : 5 / 72
+Processing epoch : 6 / 72
+Processing epoch : 7 / 72
+Processing epoch : 8 / 72
+Processing epoch : 9 / 72
+Processing epoch : 10 / 72
+Processing epoch : 11 / 72
+Processing epoch : 12 / 72
+Processing epoch : 13 / 72
+Processing epoch : 14 / 72
+Processing epoch : 15 / 72
+Processing epoch : 16 / 72
+Processing epoch : 17 / 72
+Processing epoch : 18 / 72
+Processing epoch : 19 / 72
+Processing epoch : 20 / 72
+Processing epoch : 21 / 72
+Processing epoch : 22 / 72
+Processing epoch : 23 / 72
+Processing epoch : 24 / 72
+Processing epoch : 25 / 72
+Processing epoch : 26 / 72
+Processing epoch : 27 / 72
+Processing epoch : 28 / 72
+Processing epoch : 29 / 72
+Processing epoch : 30 / 72
+Processing epoch : 31 / 72
+Processing epoch : 32 / 72
+Processing epoch : 33 / 72
+Processing epoch : 34 / 72
+Processing epoch : 35 / 72
+Processing epoch : 36 / 72
+Processing epoch : 37 / 72
+Processing epoch : 38 / 72
+Processing epoch : 39 / 72
+Processing epoch : 40 / 72
+Processing epoch : 41 / 72
+Processing epoch : 42 / 72
+Processing epoch : 43 / 72
+Processing epoch : 44 / 72
+Processing epoch : 45 / 72
+Processing epoch : 46 / 72
+Processing epoch : 47 / 72
+Processing epoch : 48 / 72
+Processing epoch : 49 / 72
+Processing epoch : 50 / 72
+Processing epoch : 51 / 72
+Processing epoch : 52 / 72
+Processing epoch : 53 / 72
+Processing epoch : 54 / 72
+Processing epoch : 55 / 72
+Processing epoch : 56 / 72
+Processing epoch : 57 / 72
+Processing epoch : 58 / 72
+Processing epoch : 59 / 72
+Processing epoch : 60 / 72
+Processing epoch : 61 / 72
+Processing epoch : 62 / 72
+Processing epoch : 63 / 72
+Processing epoch : 64 / 72
+Processing epoch : 65 / 72
+Processing epoch : 66 / 72
+Processing epoch : 67 / 72
+Processing epoch : 68 / 72
+Processing epoch : 69 / 72
+Processing epoch : 70 / 72
+Processing epoch : 71 / 72
+Processing epoch : 72 / 72
+[done]
+Removing 5 compensators from info because not all compensation channels were picked.
+Computing brain RDMs for 5 frequencies and 1201 time points...
+  Done frequency 3.0 Hz (1/5)
+  Done frequency 4.0 Hz (2/5)
+  Done frequency 5.0 Hz (3/5)
+  Done frequency 6.0 Hz (4/5)
+  Done frequency 7.0 Hz (5/5)
+✅ All brain RDMs saved to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_theta.npy
+
+(thingsvision) (base) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Docum
+ents/RRI/rsa_analysis/subject/sensor_level/combine.py
+Loading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_theta.npy
+Loading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_alpha.npy
+Loading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_beta_1.npy
+Loading /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms_beta_2.npy
+✅ Saved combined RDMs to /Users/vant7e/Documents/RRI/rsa_analysis/subject/sub-20284/rdms_brain_phase/brain_rdms.npy
+
+（thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Documents/RR
+I/rsa_analysis/subject/sensor_level/rsa_clark.py
+(28, 1201, 72, 72)
+(72, 72)
+Analyzing frequencies: [3 4 5 6 7] Hz (shape: (5, 1201, 72, 72))
+Starting RSA computation for 5 frequencies and 1201 time points...
+  Done frequency 3.0 Hz (1/5) in 576.38 seconds.
+  Done frequency 4.0 Hz (2/5) in 577.11 seconds.
+  Done frequency 5.0 Hz (3/5) in 575.99 seconds.
+  Done frequency 6.0 Hz (4/5) in 574.99 seconds.
+  Done frequency 7.0 Hz (5/5) in 574.48 seconds.
+All RSA computations finished in 47.98 minutes.
+2025-07-23 18:22:32.011 python[39922:4885712] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+
+(thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Documents/RR
+I/rsa_analysis/subject/sensor_level/rsa_clark.py
+Analyzing alpha band: [ 8  9 10 11 12 13] Hz (shape: (6, 1201, 72, 72))
+Starting RSA computation for 6 frequencies and 1201 time points...
+  Done frequency 8.0 Hz (1/6) in 581.89 seconds.
+  Done frequency 9.0 Hz (2/6) in 577.35 seconds.
+  Done frequency 10.0 Hz (3/6) in 586.17 seconds.
+  Done frequency 11.0 Hz (4/6) in 589.03 seconds.
+  Done frequency 12.0 Hz (5/6) in 595.83 seconds.
+  Done frequency 13.0 Hz (6/6) in 583.60 seconds.
+All RSA computations finished in 58.56 minutes.
+2025-07-24 09:55:02.271 python[70680:5123944] The class 'NSSavePanel' overrides the method identifier.  This method is implemented by class 'NSWindow'
+
+(thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python "/Users/vant7e/Documents/R
+RI/rsa_analysis/phase_processing_utils/ plot_rsa_difference.py"
+
+🔍 Processing model: CLIP
+[DEBUG] overt - clip shape: (28, 1201)
+[DEBUG] beginMatch - clip shape: (28, 1201)
+/Users/vant7e/miniconda3/envs/thingsvision/lib/python3.9/site-packages/scipy/stats/_stats_py.py:1087: RuntimeWarning: divide by zero encountered in divide
+  var *= np.divide(n, n-ddof)  # to avoid error on division by zero
+/Users/vant7e/miniconda3/envs/thingsvision/lib/python3.9/site-packages/scipy/stats/_stats_py.py:1087: RuntimeWarning: invalid value encountered in scalar multiply
+  var *= np.divide(n, n-ddof)  # to avoid error on division by zero
+📊 Average RSA diff (100–300ms):
+  3.0 Hz: ΔRSA = -0.0277
+  4.0 Hz: ΔRSA = 0.0001
+  5.0 Hz: ΔRSA = 0.0172
+  6.0 Hz: ΔRSA = 0.0226
+  8.0 Hz: ΔRSA = 0.0076
+  9.0 Hz: ΔRSA = -0.0085
+  10.0 Hz: ΔRSA = -0.0231
+  11.0 Hz: ΔRSA = -0.0319
+  12.0 Hz: ΔRSA = -0.0414
+  13.0 Hz: ΔRSA = -0.0442
+  15.0 Hz: ΔRSA = -0.0354
+  16.0 Hz: ΔRSA = -0.0235
+  17.0 Hz: ΔRSA = -0.0054
+  18.0 Hz: ΔRSA = 0.0033
+  19.0 Hz: ΔRSA = -0.0009
+  20.0 Hz: ΔRSA = -0.0068
+  21.0 Hz: ΔRSA = -0.0181
+  22.0 Hz: ΔRSA = 0.0292
+  23.0 Hz: ΔRSA = 0.0535
+  24.0 Hz: ΔRSA = 0.0509
+  25.0 Hz: ΔRSA = 0.0292
+  26.0 Hz: ΔRSA = -0.0000
+  27.0 Hz: ΔRSA = -0.0129
+  28.0 Hz: ΔRSA = -0.0131
+  29.0 Hz: ΔRSA = -0.0038
+  30.0 Hz: ΔRSA = 0.0000
+✅ Saved: rsa_diff_overt_minus_beginMatch_clip.png & rsa_diff_overt_minus_beginMatch_clip.txt
+(thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python "/Users/vant7e/Documents/R
+RI/rsa_analysis/phase_processing_utils/ plot_rsa_difference.py"
+
+🔍 Processing model: CMU
+[DEBUG] overt - cmu shape: (28, 1201)
+[DEBUG] beginMatch - cmu shape: (28, 1201)
+/Users/vant7e/miniconda3/envs/thingsvision/lib/python3.9/site-packages/scipy/stats/_stats_py.py:1087: RuntimeWarning: divide by zero encountered in divide
+  var *= np.divide(n, n-ddof)  # to avoid error on division by zero
+/Users/vant7e/miniconda3/envs/thingsvision/lib/python3.9/site-packages/scipy/stats/_stats_py.py:1087: RuntimeWarning: invalid value encountered in scalar multiply
+  var *= np.divide(n, n-ddof)  # to avoid error on division by zero
+📊 Average RSA diff (100–300ms):
+  3.0 Hz: ΔRSA = -0.0102
+  4.0 Hz: ΔRSA = -0.0058
+  5.0 Hz: ΔRSA = -0.0011
+  6.0 Hz: ΔRSA = -0.0007
+  8.0 Hz: ΔRSA = -0.0028
+  9.0 Hz: ΔRSA = 0.0004
+  10.0 Hz: ΔRSA = 0.0029
+  11.0 Hz: ΔRSA = 0.0126
+  12.0 Hz: ΔRSA = 0.0146
+  13.0 Hz: ΔRSA = 0.0051
+  15.0 Hz: ΔRSA = -0.0063
+  16.0 Hz: ΔRSA = -0.0126
+  17.0 Hz: ΔRSA = -0.0090
+  18.0 Hz: ΔRSA = -0.0035
+  19.0 Hz: ΔRSA = 0.0032
+  20.0 Hz: ΔRSA = 0.0092
+  21.0 Hz: ΔRSA = 0.0126
+  22.0 Hz: ΔRSA = 0.0143
+  23.0 Hz: ΔRSA = 0.0047
+  24.0 Hz: ΔRSA = 0.0050
+  25.0 Hz: ΔRSA = 0.0211
+  26.0 Hz: ΔRSA = 0.0428
+  27.0 Hz: ΔRSA = 0.0456
+  28.0 Hz: ΔRSA = 0.0379
+  29.0 Hz: ΔRSA = 0.0230
+  30.0 Hz: ΔRSA = 0.0031
+  (thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Documents/RR
+I/rsa_analysis/phase_processing_utils/rsa_diff_sig_heatmap.py
+
+Processing theta band...
+Loaded beginMatch theta: RSA shape (5, 1201), Pvals shape (5, 1201), Freqs: [3. 4. 5. 6. 7.]
+Loaded overt theta: RSA shape (5, 1201), Pvals shape (5, 1201), Freqs: [3. 4. 5. 6. 7.]
+theta: RSA diff shape (5, 1201), P combined shape (5, 1201)
+
+Processing alpha band...
+Loaded beginMatch alpha: RSA shape (6, 1201), Pvals shape (6, 1201), Freqs: [ 8.  9. 10. 11. 12. 13.]
+Loaded overt alpha: RSA shape (6, 1201), Pvals shape (6, 1201), Freqs: [ 8.  9. 10. 11. 12. 13.]
+alpha: RSA diff shape (6, 1201), P combined shape (6, 1201)
+
+Processing beta band...
+Loaded beginMatch beta: RSA shape (17, 1201), Pvals shape (17, 1201), Freqs: [14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30.]
+Loaded overt beta: RSA shape (17, 1201), Pvals shape (17, 1201), Freqs: [14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30.]
+beta: RSA diff shape (17, 1201), P combined shape (17, 1201)
+
+Final data shapes:
+RSA diff: (28, 1201)
+P-values: (28, 1201)
+Frequencies: (28,)
+Time points: (1201,)
+
+Applying FDR correction...
+Found 0 significant time-frequency points out of 33628 total
+
+P-value statistics:
+Min p-value: 0.007992
+Max p-value: 1.000000
+Mean p-value: 0.668301
+Median p-value: 0.705295
+
+Significant points at different uncorrected thresholds:
+p < 0.001: 0 points (0.0%)
+p < 0.01: 3 points (0.0%)
+p < 0.05: 65 points (0.2%)
+p < 0.1: 294 points (0.9%)
+p < 0.2: 1249 points (3.7%)
+
+No significant points found with FDR correction!
+Options:
+1. Use uncorrected p-values (less strict)
+2. Use a higher alpha level for FDR
+3. Use cluster-based correction
+
+Trying uncorrected p < 0.05...
+Found 65 significant points with uncorrected p < 0.05
+Using uncorrected significance for visualization
+
+Creating visualization...
+
+Saving results...
+Saved: sig_rsa_diff_overt_minus_beginMatch_clip.txt
+Saved: sig_rsa_diff_overt_minus_beginMatch_clip.png
+Plot displayed!
+(thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % 
+(thingsvision) vant7e@Vantes-MacBook-Air rsa_analysis % /Users/vant7e/miniconda3/envs/thingsvision/bin/python /Users/vant7e/Documents/RR
+I/rsa_analysis/phase_processing_utils/rsa_diff_sig_heatmap.py
+
+Processing theta band...
+Loaded beginMatch theta: RSA shape (5, 1201), Pvals shape (5, 1201), Freqs: [3. 4. 5. 6. 7.]
+Loaded overt theta: RSA shape (5, 1201), Pvals shape (5, 1201), Freqs: [3. 4. 5. 6. 7.]
+theta: RSA diff shape (5, 1201), P combined shape (5, 1201)
+
+Processing alpha band...
+Loaded beginMatch alpha: RSA shape (6, 1201), Pvals shape (6, 1201), Freqs: [ 8.  9. 10. 11. 12. 13.]
+Loaded overt alpha: RSA shape (6, 1201), Pvals shape (6, 1201), Freqs: [ 8.  9. 10. 11. 12. 13.]
+alpha: RSA diff shape (6, 1201), P combined shape (6, 1201)
+
+Processing beta band...
+Loaded beginMatch beta: RSA shape (17, 1201), Pvals shape (17, 1201), Freqs: [14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30.]
+Loaded overt beta: RSA shape (17, 1201), Pvals shape (17, 1201), Freqs: [14. 15. 16. 17. 18. 19. 20. 21. 22. 23. 24. 25. 26. 27. 28. 29. 30.]
+beta: RSA diff shape (17, 1201), P combined shape (17, 1201)
+
+Final data shapes:
+RSA diff: (28, 1201)
+P-values: (28, 1201)
+Frequencies: (28,)
+Time points: (1201,)
+
+Applying FDR correction...
+Found 0 significant time-frequency points out of 33628 total
+
+P-value statistics:
+Min p-value: 0.020979
+Max p-value: 1.000000
+Mean p-value: 0.666971
+Median p-value: 0.706294
+
+Significant points at different uncorrected thresholds:
+p < 0.001: 0 points (0.0%)
+p < 0.01: 0 points (0.0%)
+p < 0.05: 43 points (0.1%)
+p < 0.1: 247 points (0.7%)
+p < 0.2: 1244 points (3.7%)
+
+No significant points found with FDR correction!
+Options:
+1. Use uncorrected p-values (less strict)
+2. Use a higher alpha level for FDR
+3. Use cluster-based correction
+
+Trying uncorrected p < 0.05...
+Found 43 significant points with uncorrected p < 0.05
+Using uncorrected significance for visualization
+
+Creating visualization...
+
+Saving results...
+Saved: sig_rsa_diff_overt_minus_beginMatch_cmu.txt
+Saved: sig_rsa_diff_overt_minus_beginMatch_cmu.png
+Plot displayed!
