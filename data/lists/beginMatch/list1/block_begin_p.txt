@@ -1,0 +1,12 @@
+pictures//nontarget//raincoat.jpeg	3	2
+pictures//nontarget//heater.jpeg	3	2
+pictures//target//pie.jpeg	2	3
+pictures//nontarget//bubble.jpeg	3	2
+pictures//target//puppet.jpeg	2	3
+pictures//target//perfume.jpeg	2	3
+pictures//nontarget//guitar.jpeg	3	2
+pictures//target//pear.jpeg	2	3
+pictures//nontarget//foam.jpeg	3	2
+pictures//nontarget//lego.jpeg	3	2
+pictures//target//pants.jpeg	2	3
+pictures//target//painting.jpeg	2	3

@@ -1,0 +1,12 @@
+pictures//target//sand.jpeg	2	3
+pictures//nontarget//thorn.jpeg	3	2
+pictures//nontarget//petal.jpeg	3	2
+pictures//nontarget//marble.jpeg	3	2
+pictures//target//stair.jpeg	2	3
+pictures//nontarget//lantern.jpeg	3	2
+pictures//target//swan.jpeg	2	3
+pictures//nontarget//yogurt.jpeg	3	2
+pictures//target//submarine.jpeg	2	3
+pictures//target//sunflower.jpeg	2	3
+pictures//nontarget//zipper.jpeg	3	2
+pictures//target//skin.jpeg	2	3

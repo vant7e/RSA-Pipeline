@@ -1,0 +1,12 @@
+pictures//target//badge.jpeg	2	3
+pictures//target//baseball.jpeg	2	3
+pictures//nontarget//freezer.jpeg	3	2
+pictures//target//ball.jpeg	2	3
+pictures//target//baby.jpeg	2	3
+pictures//nontarget//crayon.jpeg	3	2
+pictures//target//bell.jpeg	2	3
+pictures//nontarget//coconut.jpeg	3	2
+pictures//nontarget//velcro.jpeg	3	2
+pictures//nontarget//cape.jpeg	3	2
+pictures//nontarget//donkey.jpeg	3	2
+pictures//target//bike.jpeg	2	3

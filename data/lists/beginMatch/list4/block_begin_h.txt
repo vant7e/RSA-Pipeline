@@ -1,0 +1,12 @@
+pictures//nontarget//blind.jpeg	3	2
+pictures//target//hat.jpeg	2	3
+pictures//target//hole.jpeg	2	3
+pictures//nontarget//ski.jpeg	3	2
+pictures//target//honey.jpeg	2	3
+pictures//nontarget//binoculars.jpeg	3	2
+pictures//target//handle.jpeg	2	3
+pictures//target//hose.jpeg	2	3
+pictures//nontarget//satellite.jpeg	3	2
+pictures//target//hair.jpeg	2	3
+pictures//nontarget//dart.jpeg	3	2
+pictures//nontarget//triangle.jpeg	3	2

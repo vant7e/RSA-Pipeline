@@ -1,0 +1,12 @@
+pictures//target//tea.jpeg	2	3
+pictures//nontarget//goose.jpeg	3	2
+pictures//nontarget//saddle.jpeg	3	2
+pictures//target//toast.jpeg	2	3
+pictures//nontarget//seagull.jpeg	3	2
+pictures//nontarget//seahorse.jpeg	3	2
+pictures//nontarget//switch.jpeg	3	2
+pictures//target//tie.jpeg	2	3
+pictures//target//teapot.jpeg	2	3
+pictures//target//table.jpeg	2	3
+pictures//nontarget//earplug.jpeg	3	2
+pictures//target//treadmill.jpeg	2	3

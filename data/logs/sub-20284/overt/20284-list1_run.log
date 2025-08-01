@@ -1,0 +1,98 @@
+Scenario - Overt naming list1
+Logfile written - 06/21/2023 12:50:09
+
+Subject	Trial	Event Type	Code	trial_boolean(num)	condition_code(num)	condition_label(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+20284	1	Picture	0;11;localize	0	11	localize	161	0	1	53834	7	0	next	other	0
+20284	1	Response	0				53839	53678	1
+20284	2	Picture	0;111;blockstart	0	111	blockstart	53994	0	7	3333	7	0	next	other	0
+20284	4	Picture	1 ;101;pic;pictures//ship.jpeg	1 	101	pic	62661	167	7	27000	7	0	next	other	0
+20284	6	Picture	2 ;101;pic;pictures//puddle.jpeg	2 	101	pic	94995	167	7	25333	7	0	next	other	0
+20284	8	Picture	3 ;101;pic;pictures//coaster.jpeg	3 	101	pic	125661	167	7	26000	7	0	next	other	0
+20284	10	Picture	4 ;101;pic;pictures//root.jpeg	4 	101	pic	156995	167	7	25334	8	0	next	other	0
+20284	12	Picture	5 ;101;pic;pictures//gift.jpeg	5 	101	pic	187662	167	7	25334	7	0	next	other	0
+20284	14	Picture	6 ;101;pic;pictures//peeler.jpeg	6 	101	pic	218329	167	7	27000	7	0	next	other	0
+20284	16	Picture	7 ;101;pic;pictures//raspberry.jpeg	7 	101	pic	250662	167	7	25334	7	0	next	other	0
+20284	18	Picture	8 ;101;pic;pictures//coin.jpeg	8 	101	pic	281329	167	7	25334	7	0	next	other	0
+20284	20	Picture	9 ;101;pic;pictures//butter.jpeg	9 	101	pic	311996	167	7	27833	7	0	next	other	0
+20284	22	Picture	10 ;101;pic;pictures//lobster.jpeg	10 	101	pic	345163	167	7	25333	7	0	next	other	0
+20284	24	Picture	11 ;101;pic;pictures//taxi.jpeg	11 	101	pic	375830	167	7	25334	7	0	next	other	0
+20284	26	Picture	12 ;101;pic;pictures//parrot.jpeg	12 	101	pic	406497	167	7	26667	7	0	next	other	0
+20284	28	Picture	13 ;101;pic;pictures//jet.jpeg	13 	101	pic	438497	167	7	27500	7	0	next	other	0
+20284	30	Picture	14 ;101;pic;pictures//pocket.jpeg	14 	101	pic	471330	167	7	25333	7	0	next	other	0
+20284	32	Picture	15 ;101;pic;pictures//can.jpeg	15 	101	pic	501997	167	7	25334	7	0	next	other	0
+20284	34	Picture	16 ;101;pic;pictures//pickle.jpeg	16 	101	pic	532664	167	7	25333	7	0	next	other	0
+20284	36	Picture	17 ;101;pic;pictures//grill.jpeg	17 	101	pic	563331	167	7	25334	7	0	next	other	0
+20284	38	Picture	18 ;101;pic;pictures//pea.jpeg	18 	101	pic	593998	167	7	25334	7	0	next	other	0
+20284	40	Picture	19 ;101;pic;pictures//sandal.jpeg	19 	101	pic	624665	167	7	25334	7	0	next	other	0
+20284	42	Picture	20 ;101;pic;pictures//seal.jpeg	20 	101	pic	655332	167	7	26500	7	0	next	other	0
+20284	44	Picture	21 ;101;pic;pictures//gate.jpeg	21 	101	pic	687165	167	7	25500	7	0	next	other	0
+20284	46	Picture	22 ;101;pic;pictures//meat.jpeg	22 	101	pic	717999	167	7	26000	7	0	next	other	0
+20284	48	Picture	23 ;101;pic;pictures//oyster.jpeg	23 	101	pic	749332	167	7	25334	7	0	next	other	0
+20284	50	Picture	24 ;101;pic;pictures//foot.jpeg	24 	101	pic	779999	167	7	26667	7	0	next	other	0
+20284	52	Picture	25 ;101;pic;pictures//coat.jpeg	25 	101	pic	811999	166	8	25834	8	0	next	other	0
+20284	54	Picture	26 ;101;pic;pictures//net.jpeg	26 	101	pic	843166	167	7	26167	7	0	next	other	0
+20284	56	Picture	27 ;101;pic;pictures//rock.jpeg	27 	101	pic	874667	167	7	25500	7	0	next	other	0
+20284	58	Picture	28 ;101;pic;pictures//trumpet.jpeg	28 	101	pic	905500	167	7	25334	7	0	next	other	0
+20284	60	Picture	29 ;101;pic;pictures//napkin.jpeg	29 	101	pic	936167	167	7	25500	7	0	next	other	0
+20284	62	Picture	30 ;101;pic;pictures//dryer.jpeg	30 	101	pic	967001	167	7	29167	7	0	next	other	0
+20284	64	Picture	31 ;101;pic;pictures//armor.jpeg	31 	101	pic	1001501	167	7	25333	7	0	next	other	0
+20284	66	Picture	32 ;101;pic;pictures//beanie.jpeg	32 	101	pic	1032168	167	7	26000	7	0	next	other	0
+20284	68	Picture	33 ;101;pic;pictures//parachute.jpeg	33 	101	pic	1063501	167	7	27667	7	0	next	other	0
+20284	70	Picture	34 ;101;pic;pictures//rose.jpeg	34 	101	pic	1096501	167	7	25833	7	0	next	other	0
+20284	72	Picture	35 ;101;pic;pictures//van.jpeg	35 	101	pic	1127668	167	7	25500	7	0	next	other	0
+20284	74	Picture	36 ;101;pic;pictures//altar.jpeg	36 	101	pic	1158502	167	7	27167	7	0	next	other	0
+20284	76	Picture	37 ;101;pic;pictures//deer.jpeg	37 	101	pic	1191002	167	7	25834	7	0	next	other	0
+20284	78	Picture	38 ;101;pic;pictures//outlet.jpeg	38 	101	pic	1222169	167	7	25334	7	0	next	other	0
+20284	80	Picture	39 ;101;pic;pictures//ketchup.jpeg	39 	101	pic	1252836	167	7	25667	7	0	next	other	0
+20284	82	Picture	40 ;101;pic;pictures//handkerchief.jpeg	40 	101	pic	1283836	167	7	25334	7	0	next	other	0
+20284	84	Picture	41 ;101;pic;pictures//leash.jpeg	41 	101	pic	1314503	167	7	26667	7	0	next	other	0
+20284	86	Picture	42 ;101;pic;pictures//missile.jpeg	42 	101	pic	1346503	167	7	25333	7	0	next	other	0
+20284	88	Picture	43 ;101;pic;pictures//mitten.jpeg	43 	101	pic	1377170	167	7	27834	7	0	next	other	0
+20284	90	Picture	44 ;101;pic;pictures//yacht.jpeg	44 	101	pic	1410337	167	7	25333	7	0	next	other	0
+20284	92	Picture	45 ;101;pic;pictures//bun.jpeg	45 	101	pic	1441004	167	7	25334	7	0	next	other	0
+20284	94	Picture	46 ;101;pic;pictures//album.jpeg	46 	101	pic	1471671	167	7	25500	7	0	next	other	0
+20284	96	Picture	47 ;101;pic;pictures//bottle.jpeg	47 	101	pic	1502504	167	7	25333	7	0	next	other	0
+20284	98	Picture	48 ;101;pic;pictures//goggles.jpeg	48 	101	pic	1533171	167	7	30334	7	0	next	other	0
+20284	100	Picture	49 ;101;pic;pictures//organ.jpeg	49 	101	pic	1568836	164	11	25336	11	0	next	other	0
+20284	102	Picture	50 ;101;pic;pictures//recorder.jpeg	50 	101	pic	1599505	167	7	28000	7	0	next	other	0
+20284	104	Picture	51 ;101;pic;pictures//lizard.jpeg	51 	101	pic	1632838	167	7	25667	7	0	next	other	0
+20284	106	Picture	52 ;101;pic;pictures//leopard.jpeg	52 	101	pic	1663839	167	7	30000	7	0	next	other	0
+20284	108	Picture	53 ;101;pic;pictures//graffiti.jpeg	53 	101	pic	1699172	167	7	25333	7	0	next	other	0
+20284	110	Picture	54 ;101;pic;pictures//knot.jpeg	54 	101	pic	1729839	167	7	25334	7	0	next	other	0
+20284	112	Picture	55 ;101;pic;pictures//volleyball.jpeg	55 	101	pic	1760506	167	7	25334	7	0	next	other	0
+20284	114	Picture	56 ;101;pic;pictures//raisin.jpeg	56 	101	pic	1791173	167	7	27834	7	0	next	other	0
+20284	116	Picture	57 ;101;pic;pictures//bread.jpeg	57 	101	pic	1824340	167	7	25334	7	0	next	other	0
+20284	118	Picture	58 ;101;pic;pictures//money.jpeg	58 	101	pic	1855007	167	7	25500	7	0	next	other	0
+20284	120	Picture	59 ;101;pic;pictures//whip.jpeg	59 	101	pic	1885840	167	7	28167	7	0	next	other	0
+20284	122	Picture	60 ;101;pic;pictures//almond.jpeg	60 	101	pic	1919340	167	7	25334	7	0	next	other	0
+20284	124	Picture	61 ;101;pic;pictures//man.jpeg	61 	101	pic	1950007	167	7	25500	7	0	next	other	0
+20284	126	Picture	62 ;101;pic;pictures//hamster.jpeg	62 	101	pic	1980841	167	7	25834	7	0	next	other	0
+20284	128	Picture	63 ;101;pic;pictures//beet.jpeg	63 	101	pic	2012008	167	7	25333	7	0	next	other	0
+20284	130	Picture	64 ;101;pic;pictures//frame.jpeg	64 	101	pic	2042674	167	7	26334	7	0	next	other	0
+20284	132	Picture	65 ;101;pic;pictures//treature.jpeg	65 	101	pic	2074341	167	7	25333	7	0	next	other	0
+20284	134	Picture	66 ;101;pic;pictures//wall.jpeg	66 	101	pic	2105008	167	7	26000	7	0	next	other	0
+20284	136	Picture	67 ;101;pic;pictures//bean.jpeg	67 	101	pic	2136342	167	7	25334	7	0	next	other	0
+20284	138	Picture	68 ;101;pic;pictures//fossil.jpeg	68 	101	pic	2167009	167	7	25667	7	0	next	other	0
+20284	140	Picture	69 ;101;pic;pictures//notebook.jpeg	69 	101	pic	2198009	167	7	26167	7	0	next	other	0
+20284	142	Picture	70 ;101;pic;pictures//fire.jpeg	70 	101	pic	2229509	167	7	25334	7	0	next	other	0
+20284	144	Picture	71 ;101;pic;pictures//antenna.jpeg	71 	101	pic	2260176	167	7	27000	7	0	next	other	0
+20284	146	Picture	72 ;101;pic;pictures//cabbage.jpeg	72 	101	pic	2292510	167	7	25000	13	0	next	other	0
+20284	147	Picture	0;222;blockend	0	222	blockend	2317510	0	7	167	13	0	next	other	0
+20284	148	Picture	3; run3_end	3	 run3_end		2317676	0	7	257062	7	0	next	other	0
+20284	148	Response	0				2567629	249953	1
+
+
+{
+   "app": "Presentation Version 23.1 Build 09.29.22",
+   "device": "Dell Inc. Precision WorkStation T3500",
+   "experiment": "{144CC566-EE69-44D3-97D2-4A226C0AD419}",
+   "os": "Windows 7 64 bit",
+   "package": "",
+   "parameters": {
+      "configuration": "Default configuration"
+   },
+   "scenario": "list1_run.sce",
+   "subject": "20284",
+   "timestamp": "2023/06/21 16:45:49 GMT"
+}

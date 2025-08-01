@@ -1,0 +1,12 @@
+pictures//nontarget//drill.jpeg	3	2
+pictures//nontarget//shield.jpeg	3	2
+pictures//nontarget//rabbit.jpeg	3	2
+pictures//target//mailbox.jpeg	2	3
+pictures//nontarget//cheese.jpeg	3	2
+pictures//target//microphone.jpeg	2	3
+pictures//target//motorcycle.jpeg	2	3
+pictures//target//makeup.jpeg	2	3
+pictures//target//magnet.jpeg	2	3
+pictures//nontarget//cigar.jpeg	3	2
+pictures//target//muffin.jpeg	2	3
+pictures//nontarget//spaghetti.jpeg	3	2

@@ -1,0 +1,40 @@
+Scenario - covert picture naming with beginning sound match practice
+Logfile written - 06/21/2023 12:53:15
+
+Subject	Trial	Event Type	Code	trial_boolean(num)	condition_code(num)	condition_label(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+20284	1	Response	0				108743	108745	1
+20284	2	Response	0				450575	341744	1
+20284	3	Response	0				555694	105027	1
+20284	4	Response	0				582732	26898	1
+20284	5	Picture	0;111;blockstart	0	111	blockstart	583001	0	7	167	7	0	next	other	0
+20284	6	Picture	block_tar_pic	block_tar_pic			583168	0	1	51000	1	0	next	other	0
+20284	6	Sound	block_tar_sound	block_tar_sound			583197	29	548			0		other	0
+20284	8	Picture	1 ;101;pic;practice//pictures//diamond.jpg	1 	101	pic	639502	167	1	25000	1	0	next	hit	9
+20284	8	Response	11				654531	15196	1
+20284	10	Picture	2 ;101;pic;practice//pictures//key.jpg	2 	101	pic	681335	167	1	25000	1	0	next	hit	11
+20284	10	Response	21				692560	11392	1
+20284	12	Picture	3 ;101;pic;practice//pictures//soap.jpg	3 	101	pic	723169	167	1	25000	1	0	next	hit	13
+20284	12	Response	21				741139	18137	1
+20284	14	Picture	4 ;101;pic;practice//pictures//duck.jpg	4 	101	pic	765336	167	1	25000	1	0	next	hit	15
+20284	14	Response	11				776989	11820	1
+20284	16	Picture	5 ;101;pic;practice//pictures//Wolf.jpg	5 	101	pic	807336	167	1	25000	1	0	next	hit	17
+20284	16	Response	21				818818	11649	1
+20284	18	Picture	6 ;101;pic;practice//pictures//door.jpg	6 	101	pic	848336	167	1	25000	1	0	next	hit	19
+20284	18	Response	11				858857	10688	1
+20284	19	Picture	0;222;blockend	0	222	blockend	883503	0	7	167	7	0	next	other	0
+20284	20	Response	0				949367	65697	1
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	0;111;blockstart	other				583001	7	167	7	0	next
+Picture	block_tar_pic	other				583168	1	51000	1	0	next
+Sound	block_tar_sound	other				583197	548			0
+Picture	1 ;101;pic;practice//pictures//diamond.jpg	hit	2	15030	1	639502	1	25000	1	0	next
+Picture	2 ;101;pic;practice//pictures//key.jpg	hit	3	11225	1	681335	1	25000	1	0	next
+Picture	3 ;101;pic;practice//pictures//soap.jpg	hit	3	17971	1	723169	1	25000	1	0	next
+Picture	4 ;101;pic;practice//pictures//duck.jpg	hit	2	11654	1	765336	1	25000	1	0	next
+Picture	5 ;101;pic;practice//pictures//Wolf.jpg	hit	3	11482	1	807336	1	25000	1	0	next
+Picture	6 ;101;pic;practice//pictures//door.jpg	hit	2	10521	1	848336	1	25000	1	0	next
+Picture	0;222;blockend	other				883503	7	167	7	0	next

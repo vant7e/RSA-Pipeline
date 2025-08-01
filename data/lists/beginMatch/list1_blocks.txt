@@ -1,0 +1,6 @@
+lists//list1//block_begin_b.txt	"b"	sounds//b.wav
+lists//list1//block_begin_h.txt	"h"	sounds//h.wav
+lists//list1//block_begin_m.txt	"m"	sounds//m.wav
+lists//list1//block_begin_p.txt	"p"	sounds//p.wav
+lists//list1//block_begin_s.txt	"s"	sounds//s.wav
+lists//list1//block_begin_t.txt	"t"	sounds//t.wav

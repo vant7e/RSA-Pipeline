@@ -1,0 +1,281 @@
+Scenario - covert beginning sound matching list1 leftYes
+Logfile written - 06/21/2023 12:57:59
+
+Subject	Trial	Event Type	Code	trial_boolean(num)	condition_code(num)	condition_label(str)	Time	TTime	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur	Stim Type	Pair Index
+
+20284	1	Picture	0;11;localize	0	11	localize	161	0	1	169001	7	0	next	other	0
+20284	1	Response	0				168911	168750	1
+20284	2	Picture	0;111;blockstart	0	111	blockstart	169162	0	7	167	7	0	next	other	0
+20284	3	Picture	block_tar_pic	block_tar_pic			169328	0	1	52667	1	0	next	other	0
+20284	3	Sound	block_tar_sound	block_tar_sound			169359	30	479			0		other	0
+20284	5	Picture	1;101;picpictures//nontarget//crayon.jpeg	1	101	picpictures//nontarget//crayon.jpeg	227329	167	7	28334	7	0	next	hit	7
+20284	5	Response	21				241439	14277	1
+20284	7	Picture	2;101;picpictures//target//bike.jpeg	2	101	picpictures//target//bike.jpeg	260996	167	7	25333	7	0	next	hit	9
+20284	7	Response	11				275558	14729	1
+20284	9	Picture	3;101;picpictures//nontarget//cape.jpeg	3	101	picpictures//nontarget//cape.jpeg	291663	167	7	25334	7	0	next	hit	11
+20284	9	Response	21				305848	14352	1
+20284	11	Picture	4;101;picpictures//target//badge.jpeg	4	101	picpictures//target//badge.jpeg	322330	167	7	25333	7	0	next	hit	13
+20284	11	Response	11				336727	14564	1
+20284	13	Picture	5;101;picpictures//nontarget//velcro.jpeg	5	101	picpictures//nontarget//velcro.jpeg	352996	167	7	25333	7	0	next	hit	15
+20284	13	Response	21				370166	17336	1
+20284	15	Picture	6;101;picpictures//target//baseball.jpeg	6	101	picpictures//target//baseball.jpeg	383663	167	7	25500	7	0	next	hit	17
+20284	15	Response	11				392036	8540	1
+20284	17	Picture	7;101;picpictures//nontarget//coconut.jpeg	7	101	picpictures//nontarget//coconut.jpeg	414497	167	7	26000	7	0	next	hit	19
+20284	17	Response	21				424825	10495	1
+20284	19	Picture	8;101;picpictures//target//ball.jpeg	8	101	picpictures//target//ball.jpeg	445830	167	7	27167	7	0	next	hit	21
+20284	19	Response	11				459155	13491	1
+20284	20	Response	1				473416	418	1
+20284	21	Picture	9;101;picpictures//nontarget//donkey.jpeg	9	101	picpictures//nontarget//donkey.jpeg	478331	167	7	25500	7	0	next	hit	24
+20284	21	Response	21				489904	11740	1
+20284	23	Picture	10;101;picpictures//nontarget//freezer.jpeg	10	101	picpictures//nontarget//freezer.jpeg	509164	167	7	28167	7	0	next	hit	26
+20284	23	Response	21				526562	17565	1
+20284	25	Picture	11;101;picpictures//target//bell.jpeg	11	101	picpictures//target//bell.jpeg	542664	167	7	25333	7	0	next	hit	28
+20284	25	Response	11				552513	10015	1
+20284	27	Picture	12;101;picpictures//target//baby.jpeg	12	101	picpictures//target//baby.jpeg	573331	167	7	25000	13	0	next	hit	30
+20284	27	Response	11				583132	9968	2
+20284	28	Picture	0;222;blockend	0	222	blockend	598331	0	7	333	13	0	next	other	0
+20284	29	Picture	0;111;blockstart	0	111	blockstart	598665	0	7	167	7	0	next	other	0
+20284	30	Picture	block_tar_pic	block_tar_pic			598831	0	1	57667	1	0	next	other	0
+20284	30	Sound	block_tar_sound	block_tar_sound			598838	6	1			0		other	0
+20284	32	Picture	1;101;picpictures//nontarget//binoculars.jpeg	1	101	picpictures//nontarget//binoculars.jpeg	661832	167	7	25334	7	0	next	hit	36
+20284	32	Response	21				678800	17135	1
+20284	34	Picture	2;101;picpictures//target//hose.jpeg	2	101	picpictures//target//hose.jpeg	692499	167	7	25333	7	0	next	hit	38
+20284	34	Response	11				702741	10409	1
+20284	36	Picture	3;101;picpictures//target//hole.jpeg	3	101	picpictures//target//hole.jpeg	723165	167	7	25334	7	0	next	hit	40
+20284	36	Response	11				732181	9182	1
+20284	38	Picture	4;101;picpictures//target//handle.jpeg	4	101	picpictures//target//handle.jpeg	753832	167	7	27500	7	0	next	hit	42
+20284	38	Response	11				766328	12662	1
+20284	40	Picture	5;101;picpictures//target//hair.jpeg	5	101	picpictures//target//hair.jpeg	786666	167	7	25333	7	0	next	hit	44
+20284	40	Response	11				794928	8429	1
+20284	42	Picture	6;101;picpictures//target//honey.jpeg	6	101	picpictures//target//honey.jpeg	817333	167	8	27333	8	0	next	hit	46
+20284	42	Response	11				827648	10481	1
+20284	44	Picture	7;101;picpictures//target//hat.jpeg	7	101	picpictures//target//hat.jpeg	850000	167	7	25334	7	0	next	hit	48
+20284	44	Response	11				860826	10993	1
+20284	46	Picture	8;101;picpictures//nontarget//triangle.jpeg	8	101	picpictures//nontarget//triangle.jpeg	880667	167	7	27500	7	0	next	hit	50
+20284	46	Response	21				893676	13176	1
+20284	48	Picture	9;101;picpictures//nontarget//blind.jpeg	9	101	picpictures//nontarget//blind.jpeg	913500	167	7	26334	7	0	next	hit	52
+20284	48	Response	21				933357	20023	1
+20284	50	Picture	10;101;picpictures//nontarget//satellite.jpeg	10	101	picpictures//nontarget//satellite.jpeg	945167	167	7	25500	7	0	next	hit	54
+20284	50	Response	21				967265	22264	1
+20284	52	Picture	11;101;picpictures//nontarget//dart.jpeg	11	101	picpictures//nontarget//dart.jpeg	976001	167	7	26000	7	0	next	hit	56
+20284	52	Response	21				991474	15640	1
+20284	54	Picture	12;101;picpictures//nontarget//ski.jpeg	12	101	picpictures//nontarget//ski.jpeg	1007334	167	7	25000	13	0	next	hit	58
+20284	54	Response	21				1023503	16336	1
+20284	55	Picture	0;222;blockend	0	222	blockend	1032334	0	7	333	13	0	next	other	0
+20284	56	Picture	0;111;blockstart	0	111	blockstart	1032668	0	7	167	7	0	next	other	0
+20284	57	Picture	block_tar_pic	block_tar_pic			1032834	0	1	50500	1	0	next	other	0
+20284	57	Sound	block_tar_sound	block_tar_sound			1032841	7	1			0		other	0
+20284	59	Picture	1;101;picpictures//nontarget//drill.jpeg	1	101	picpictures//nontarget//drill.jpeg	1088668	167	7	25334	7	0	next	hit	64
+20284	59	Response	21				1104011	15510	3
+20284	61	Picture	2;101;picpictures//nontarget//shield.jpeg	2	101	picpictures//nontarget//shield.jpeg	1119335	166	7	28334	7	0	next	hit	66
+20284	61	Response	21				1137811	18643	1
+20284	63	Picture	3;101;picpictures//nontarget//rabbit.jpeg	3	101	picpictures//nontarget//rabbit.jpeg	1153002	167	7	28167	7	0	next	hit	68
+20284	63	Response	21				1164681	11845	1
+20284	65	Picture	4;101;picpictures//target//mailbox.jpeg	4	101	picpictures//target//mailbox.jpeg	1186502	167	7	25500	7	0	next	hit	70
+20284	65	Response	11				1197920	11585	1
+20284	67	Picture	5;101;picpictures//nontarget//cheese.jpeg	5	101	picpictures//nontarget//cheese.jpeg	1217335	167	7	25667	7	0	next	hit	72
+20284	67	Response	21				1230999	13831	1
+20284	69	Picture	6;101;picpictures//target//microphone.jpeg	6	101	picpictures//target//microphone.jpeg	1248336	167	7	27167	7	0	next	hit	74
+20284	69	Response	11				1257799	9630	1
+20284	71	Picture	7;101;picpictures//target//motorcycle.jpeg	7	101	picpictures//target//motorcycle.jpeg	1280836	167	7	25333	7	0	next	incorrect	76
+20284	71	Response	2				1295299	14629	1
+20284	73	Picture	8;101;picpictures//target//makeup.jpeg	8	101	picpictures//target//makeup.jpeg	1311503	167	7	25334	7	0	next	hit	78
+20284	73	Response	11				1324817	13481	1
+20284	75	Picture	9;101;picpictures//target//magnet.jpeg	9	101	picpictures//target//magnet.jpeg	1342170	167	7	25334	7	0	next	hit	80
+20284	75	Response	11				1354217	12214	1
+20284	77	Picture	10;101;picpictures//nontarget//cigar.jpeg	10	101	picpictures//nontarget//cigar.jpeg	1372837	167	7	33000	7	0	next	hit	82
+20284	77	Response	21				1389356	16687	1
+20284	79	Picture	11;101;picpictures//target//muffin.jpeg	11	101	picpictures//target//muffin.jpeg	1411170	167	7	25334	7	0	next	hit	84
+20284	79	Response	11				1420546	9542	1
+20284	80	Response	1				1436535	32	1
+20284	81	Picture	12;101;picpictures//nontarget//spaghetti.jpeg	12	101	picpictures//nontarget//spaghetti.jpeg	1441837	167	7	25000	13	0	next	hit	87
+20284	81	Response	21				1454374	12704	1
+20284	82	Picture	0;222;blockend	0	222	blockend	1466837	0	7	167	13	0	next	other	0
+20284	83	Picture	0;111;blockstart	0	111	blockstart	1467004	0	7	167	7	0	next	other	0
+20284	84	Picture	block_tar_pic	block_tar_pic			1467171	0	1	50500	1	0	next	other	0
+20284	84	Sound	block_tar_sound	block_tar_sound			1467177	6	1			0		other	0
+20284	86	Picture	1;101;picpictures//nontarget//raincoat.jpeg	1	101	picpictures//nontarget//raincoat.jpeg	1523004	167	7	25334	7	0	next	incorrect	93
+20284	86	Response	1				1540773	17935	1
+20284	86	Response	1				1545314	22477	1
+20284	88	Picture	2;101;picpictures//nontarget//heater.jpeg	2	101	picpictures//nontarget//heater.jpeg	1553671	167	7	25334	7	0	next	hit	96
+20284	88	Response	21				1567774	14270	1
+20284	90	Picture	3;101;picpictures//target//pie.jpeg	3	101	picpictures//target//pie.jpeg	1584338	167	7	27834	7	0	next	hit	98
+20284	90	Response	11				1592783	8612	1
+20284	92	Picture	4;101;picpictures//nontarget//bubble.jpeg	4	101	picpictures//nontarget//bubble.jpeg	1617505	167	7	25500	7	0	next	hit	100
+20284	92	Response	21				1628093	10754	1
+20284	94	Picture	5;101;picpictures//target//puppet.jpeg	5	101	picpictures//target//puppet.jpeg	1648339	167	7	25333	7	0	next	hit	102
+20284	94	Response	11				1659191	11019	1
+20284	96	Picture	6;101;picpictures//target//perfume.jpeg	6	101	picpictures//target//perfume.jpeg	1679005	167	7	29333	7	0	next	hit	104
+20284	96	Response	11				1694220	15381	1
+20284	98	Picture	7;101;picpictures//nontarget//guitar.jpeg	7	101	picpictures//nontarget//guitar.jpeg	1713672	167	7	25334	7	0	next	hit	106
+20284	98	Response	21				1724039	10534	1
+20284	100	Picture	8;101;picpictures//target//pear.jpeg	8	101	picpictures//target//pear.jpeg	1744339	167	7	25334	7	0	next	hit	108
+20284	100	Response	11				1751689	7516	1
+20284	102	Picture	9;101;picpictures//nontarget//foam.jpeg	9	101	picpictures//nontarget//foam.jpeg	1775006	167	7	25334	7	0	next	hit	110
+20284	102	Response	21				1788249	13409	1
+20284	104	Picture	10;101;picpictures//nontarget//lego.jpeg	10	101	picpictures//nontarget//lego.jpeg	1805673	167	7	29000	7	0	next	hit	112
+20284	104	Response	21				1821678	16172	1
+20284	106	Picture	11;101;picpictures//target//pants.jpeg	11	101	picpictures//target//pants.jpeg	1840006	167	7	25500	7	0	next	hit	114
+20284	106	Response	11				1850297	10457	1
+20284	108	Picture	12;101;picpictures//target//painting.jpeg	12	101	picpictures//target//painting.jpeg	1870840	167	7	25000	13	0	next	hit	116
+20284	108	Response	11				1882466	11793	1
+20284	109	Picture	0;222;blockend	0	222	blockend	1895840	0	7	333	13	0	next	other	0
+20284	110	Picture	0;111;blockstart	0	111	blockstart	1896173	0	7	167	7	0	next	other	0
+20284	111	Picture	block_tar_pic	block_tar_pic			1896340	0	1	50500	1	0	next	other	0
+20284	111	Sound	block_tar_sound	block_tar_sound			1896347	6	2			0		other	0
+20284	113	Picture	1;101;picpictures//nontarget//yogurt.jpeg	1	101	picpictures//nontarget//yogurt.jpeg	1952174	167	7	25333	7	0	next	hit	122
+20284	113	Response	21				1962916	10909	1
+20284	115	Picture	2;101;picpictures//nontarget//marble.jpeg	2	101	picpictures//nontarget//marble.jpeg	1982841	167	7	25334	7	0	next	hit	124
+20284	115	Response	21				1994324	11650	1
+20284	117	Picture	3;101;picpictures//nontarget//thorn.jpeg	3	101	picpictures//nontarget//thorn.jpeg	2013508	167	7	25334	7	0	next	hit	126
+20284	117	Response	21				2029533	16193	1
+20284	119	Picture	4;101;picpictures//nontarget//petal.jpeg	4	101	picpictures//nontarget//petal.jpeg	2044174	167	7	28000	7	0	next	hit	128
+20284	119	Response	21				2054643	10635	1
+20284	121	Picture	5;101;picpictures//target//skin.jpeg	5	101	picpictures//target//skin.jpeg	2077508	167	7	26167	7	0	next	hit	130
+20284	121	Response	11				2086534	9192	1
+20284	123	Picture	6;101;picpictures//target//stair.jpeg	6	101	picpictures//target//stair.jpeg	2109008	167	7	25334	7	0	next	hit	132
+20284	123	Response	11				2118732	9891	1
+20284	125	Picture	7;101;picpictures//nontarget//lantern.jpeg	7	101	picpictures//nontarget//lantern.jpeg	2139675	167	7	26167	7	0	next	hit	134
+20284	125	Response	21				2151179	11670	3
+20284	127	Picture	8;101;picpictures//target//sunflower.jpeg	8	101	picpictures//target//sunflower.jpeg	2171175	167	7	27667	7	0	next	hit	136
+20284	127	Response	11				2180351	9342	1
+20284	129	Picture	9;101;picpictures//target//sand.jpeg	9	101	picpictures//target//sand.jpeg	2204176	167	7	25333	7	0	next	hit	138
+20284	129	Response	11				2210899	6890	1
+20284	131	Picture	10;101;picpictures//target//submarine.jpeg	10	101	picpictures//target//submarine.jpeg	2234842	167	7	25333	7	0	next	hit	140
+20284	131	Response	11				2242590	7914	1
+20284	133	Picture	11;101;picpictures//target//swan.jpeg	11	101	picpictures//target//swan.jpeg	2265509	167	7	25333	7	0	next	hit	142
+20284	133	Response	11				2282478	17136	1
+20284	135	Picture	12;101;picpictures//nontarget//zipper.jpeg	12	101	picpictures//nontarget//zipper.jpeg	2296176	167	7	25000	13	0	next	hit	144
+20284	135	Response	21				2311208	15198	1
+20284	136	Picture	0;222;blockend	0	222	blockend	2321176	0	7	333	13	0	next	other	0
+20284	137	Picture	0;111;blockstart	0	111	blockstart	2321510	0	7	167	7	0	next	other	0
+20284	138	Picture	block_tar_pic	block_tar_pic			2321676	0	1	50500	1	0	next	other	0
+20284	138	Sound	block_tar_sound	block_tar_sound			2321683	6	2			0		other	0
+20284	140	Picture	1;101;picpictures//target//tea.jpeg	1	101	picpictures//target//tea.jpeg	2377510	167	7	25667	7	0	next	hit	150
+20284	140	Response	11				2389056	11713	1
+20284	142	Picture	2;101;picpictures//nontarget//seagull.jpeg	2	101	picpictures//nontarget//seagull.jpeg	2408510	167	7	25334	7	0	next	hit	152
+20284	142	Response	21				2420596	12252	1
+20284	144	Picture	3;101;picpictures//target//tie.jpeg	3	101	picpictures//target//tie.jpeg	2439177	167	7	25333	7	0	next	hit	154
+20284	144	Response	11				2446835	7825	1
+20284	146	Picture	4;101;picpictures//nontarget//earplug.jpeg	4	101	picpictures//nontarget//earplug.jpeg	2469844	167	7	26500	7	0	next	hit	156
+20284	146	Response	21				2479955	10277	1
+20284	148	Picture	5;101;picpictures//nontarget//goose.jpeg	5	101	picpictures//nontarget//goose.jpeg	2501678	167	7	25333	7	0	next	hit	158
+20284	148	Response	21				2516055	14544	2
+20284	150	Picture	6;101;picpictures//nontarget//seahorse.jpeg	6	101	picpictures//nontarget//seahorse.jpeg	2532344	167	7	25334	7	0	next	hit	160
+20284	150	Response	21				2545593	13415	1
+20284	152	Picture	7;101;picpictures//target//treadmill.jpeg	7	101	picpictures//target//treadmill.jpeg	2563011	167	7	25334	7	0	next	hit	162
+20284	152	Response	11				2573694	10849	1
+20284	154	Picture	8;101;picpictures//nontarget//switch.jpeg	8	101	picpictures//nontarget//switch.jpeg	2593678	167	7	26667	7	0	next	hit	164
+20284	154	Response	21				2610572	17061	1
+20284	156	Picture	9;101;picpictures//target//table.jpeg	9	101	picpictures//target//table.jpeg	2625678	167	7	25334	7	0	next	hit	166
+20284	156	Response	11				2633392	7880	1
+20284	158	Picture	10;101;picpictures//target//teapot.jpeg	10	101	picpictures//target//teapot.jpeg	2656345	167	7	26334	7	0	next	hit	168
+20284	158	Response	11				2665121	8942	1
+20284	160	Picture	11;101;picpictures//nontarget//saddle.jpeg	11	101	picpictures//nontarget//saddle.jpeg	2688012	167	7	25667	7	0	next	hit	170
+20284	160	Response	21				2701170	13325	1
+20284	162	Picture	12;101;picpictures//target//toast.jpeg	12	101	picpictures//target//toast.jpeg	2719012	167	7	25000	13	0	next	hit	172
+20284	162	Response	11				2727200	8354	1
+20284	163	Picture	0;222;blockend	0	222	blockend	2744013	0	7	167	13	0	next	other	0
+20284	164	Picture	3; run3_end	3	 run3_end		2744179	0	7	37337	7	0	next	other	0
+
+
+Event Type	Code	Type	Response	RT	RT Uncertainty	Time	Uncertainty	Duration	Uncertainty	ReqTime	ReqDur
+
+Picture	0;11;localize	other				161	1	169001	7	0	next
+Picture	0;111;blockstart	other				169162	7	167	7	0	next
+Picture	block_tar_pic	other				169328	1	52667	1	0	next
+Sound	block_tar_sound	other				169359	479			0
+Picture	1;101;picpictures//nontarget//crayon.jpeg	hit	3	14110	7	227329	7	28334	7	0	next
+Picture	2;101;picpictures//target//bike.jpeg	hit	2	14563	7	260996	7	25333	7	0	next
+Picture	3;101;picpictures//nontarget//cape.jpeg	hit	3	14185	7	291663	7	25334	7	0	next
+Picture	4;101;picpictures//target//badge.jpeg	hit	2	14398	7	322330	7	25333	7	0	next
+Picture	5;101;picpictures//nontarget//velcro.jpeg	hit	3	17170	7	352996	7	25333	7	0	next
+Picture	6;101;picpictures//target//baseball.jpeg	hit	2	8373	7	383663	7	25500	7	0	next
+Picture	7;101;picpictures//nontarget//coconut.jpeg	hit	3	10329	7	414497	7	26000	7	0	next
+Picture	8;101;picpictures//target//ball.jpeg	hit	2	13324	7	445830	7	27167	7	0	next
+Picture	9;101;picpictures//nontarget//donkey.jpeg	hit	3	11574	7	478331	7	25500	7	0	next
+Picture	10;101;picpictures//nontarget//freezer.jpeg	hit	3	17398	7	509164	7	28167	7	0	next
+Picture	11;101;picpictures//target//bell.jpeg	hit	2	9848	7	542664	7	25333	7	0	next
+Picture	12;101;picpictures//target//baby.jpeg	hit	2	9801	8	573331	7	25000	13	0	next
+Picture	0;222;blockend	other				598331	7	333	13	0	next
+Picture	0;111;blockstart	other				598665	7	167	7	0	next
+Picture	block_tar_pic	other				598831	1	57667	1	0	next
+Sound	block_tar_sound	other				598838	1			0
+Picture	1;101;picpictures//nontarget//binoculars.jpeg	hit	3	16968	7	661832	7	25334	7	0	next
+Picture	2;101;picpictures//target//hose.jpeg	hit	2	10242	7	692499	7	25333	7	0	next
+Picture	3;101;picpictures//target//hole.jpeg	hit	2	9016	7	723165	7	25334	7	0	next
+Picture	4;101;picpictures//target//handle.jpeg	hit	2	12496	7	753832	7	27500	7	0	next
+Picture	5;101;picpictures//target//hair.jpeg	hit	2	8262	7	786666	7	25333	7	0	next
+Picture	6;101;picpictures//target//honey.jpeg	hit	2	10315	8	817333	8	27333	8	0	next
+Picture	7;101;picpictures//target//hat.jpeg	hit	2	10826	7	850000	7	25334	7	0	next
+Picture	8;101;picpictures//nontarget//triangle.jpeg	hit	3	13010	7	880667	7	27500	7	0	next
+Picture	9;101;picpictures//nontarget//blind.jpeg	hit	3	19857	7	913500	7	26334	7	0	next
+Picture	10;101;picpictures//nontarget//satellite.jpeg	hit	3	22098	7	945167	7	25500	7	0	next
+Picture	11;101;picpictures//nontarget//dart.jpeg	hit	3	15473	7	976001	7	26000	7	0	next
+Picture	12;101;picpictures//nontarget//ski.jpeg	hit	3	16169	7	1007334	7	25000	13	0	next
+Picture	0;222;blockend	other				1032334	7	333	13	0	next
+Picture	0;111;blockstart	other				1032668	7	167	7	0	next
+Picture	block_tar_pic	other				1032834	1	50500	1	0	next
+Sound	block_tar_sound	other				1032841	1			0
+Picture	1;101;picpictures//nontarget//drill.jpeg	hit	3	15343	9	1088668	7	25334	7	0	next
+Picture	2;101;picpictures//nontarget//shield.jpeg	hit	3	18477	7	1119335	7	28334	7	0	next
+Picture	3;101;picpictures//nontarget//rabbit.jpeg	hit	3	11679	7	1153002	7	28167	7	0	next
+Picture	4;101;picpictures//target//mailbox.jpeg	hit	2	11418	7	1186502	7	25500	7	0	next
+Picture	5;101;picpictures//nontarget//cheese.jpeg	hit	3	13664	7	1217335	7	25667	7	0	next
+Picture	6;101;picpictures//target//microphone.jpeg	hit	2	9463	7	1248336	7	27167	7	0	next
+Picture	7;101;picpictures//target//motorcycle.jpeg	incorrect	3	14463	7	1280836	7	25333	7	0	next
+Picture	8;101;picpictures//target//makeup.jpeg	hit	2	13314	7	1311503	7	25334	7	0	next
+Picture	9;101;picpictures//target//magnet.jpeg	hit	2	12047	7	1342170	7	25334	7	0	next
+Picture	10;101;picpictures//nontarget//cigar.jpeg	hit	3	16520	7	1372837	7	33000	7	0	next
+Picture	11;101;picpictures//target//muffin.jpeg	hit	2	9375	7	1411170	7	25334	7	0	next
+Picture	12;101;picpictures//nontarget//spaghetti.jpeg	hit	3	12537	7	1441837	7	25000	13	0	next
+Picture	0;222;blockend	other				1466837	7	167	13	0	next
+Picture	0;111;blockstart	other				1467004	7	167	7	0	next
+Picture	block_tar_pic	other				1467171	1	50500	1	0	next
+Sound	block_tar_sound	other				1467177	1			0
+Picture	1;101;picpictures//nontarget//raincoat.jpeg	incorrect	2	17769	7	1523004	7	25334	7	0	next
+Picture	2;101;picpictures//nontarget//heater.jpeg	hit	3	14103	7	1553671	7	25334	7	0	next
+Picture	3;101;picpictures//target//pie.jpeg	hit	2	8445	7	1584338	7	27834	7	0	next
+Picture	4;101;picpictures//nontarget//bubble.jpeg	hit	3	10588	7	1617505	7	25500	7	0	next
+Picture	5;101;picpictures//target//puppet.jpeg	hit	2	10852	7	1648339	7	25333	7	0	next
+Picture	6;101;picpictures//target//perfume.jpeg	hit	2	15214	7	1679005	7	29333	7	0	next
+Picture	7;101;picpictures//nontarget//guitar.jpeg	hit	3	10367	7	1713672	7	25334	7	0	next
+Picture	8;101;picpictures//target//pear.jpeg	hit	2	7350	7	1744339	7	25334	7	0	next
+Picture	9;101;picpictures//nontarget//foam.jpeg	hit	3	13243	7	1775006	7	25334	7	0	next
+Picture	10;101;picpictures//nontarget//lego.jpeg	hit	3	16005	7	1805673	7	29000	7	0	next
+Picture	11;101;picpictures//target//pants.jpeg	hit	2	10291	7	1840006	7	25500	7	0	next
+Picture	12;101;picpictures//target//painting.jpeg	hit	2	11626	7	1870840	7	25000	13	0	next
+Picture	0;222;blockend	other				1895840	7	333	13	0	next
+Picture	0;111;blockstart	other				1896173	7	167	7	0	next
+Picture	block_tar_pic	other				1896340	1	50500	1	0	next
+Sound	block_tar_sound	other				1896347	2			0
+Picture	1;101;picpictures//nontarget//yogurt.jpeg	hit	3	10742	7	1952174	7	25333	7	0	next
+Picture	2;101;picpictures//nontarget//marble.jpeg	hit	3	11483	7	1982841	7	25334	7	0	next
+Picture	3;101;picpictures//nontarget//thorn.jpeg	hit	3	16026	7	2013508	7	25334	7	0	next
+Picture	4;101;picpictures//nontarget//petal.jpeg	hit	3	10469	7	2044174	7	28000	7	0	next
+Picture	5;101;picpictures//target//skin.jpeg	hit	2	9026	7	2077508	7	26167	7	0	next
+Picture	6;101;picpictures//target//stair.jpeg	hit	2	9724	7	2109008	7	25334	7	0	next
+Picture	7;101;picpictures//nontarget//lantern.jpeg	hit	3	11503	9	2139675	7	26167	7	0	next
+Picture	8;101;picpictures//target//sunflower.jpeg	hit	2	9175	7	2171175	7	27667	7	0	next
+Picture	9;101;picpictures//target//sand.jpeg	hit	2	6723	7	2204176	7	25333	7	0	next
+Picture	10;101;picpictures//target//submarine.jpeg	hit	2	7748	7	2234842	7	25333	7	0	next
+Picture	11;101;picpictures//target//swan.jpeg	hit	2	16969	7	2265509	7	25333	7	0	next
+Picture	12;101;picpictures//nontarget//zipper.jpeg	hit	3	15032	7	2296176	7	25000	13	0	next
+Picture	0;222;blockend	other				2321176	7	333	13	0	next
+Picture	0;111;blockstart	other				2321510	7	167	7	0	next
+Picture	block_tar_pic	other				2321676	1	50500	1	0	next
+Sound	block_tar_sound	other				2321683	2			0
+Picture	1;101;picpictures//target//tea.jpeg	hit	2	11546	7	2377510	7	25667	7	0	next
+Picture	2;101;picpictures//nontarget//seagull.jpeg	hit	3	12085	7	2408510	7	25334	7	0	next
+Picture	3;101;picpictures//target//tie.jpeg	hit	2	7658	7	2439177	7	25333	7	0	next
+Picture	4;101;picpictures//nontarget//earplug.jpeg	hit	3	10111	7	2469844	7	26500	7	0	next
+Picture	5;101;picpictures//nontarget//goose.jpeg	hit	3	14377	8	2501678	7	25333	7	0	next
+Picture	6;101;picpictures//nontarget//seahorse.jpeg	hit	3	13249	7	2532344	7	25334	7	0	next
+Picture	7;101;picpictures//target//treadmill.jpeg	hit	2	10683	7	2563011	7	25334	7	0	next
+Picture	8;101;picpictures//nontarget//switch.jpeg	hit	3	16894	7	2593678	7	26667	7	0	next
+Picture	9;101;picpictures//target//table.jpeg	hit	2	7713	7	2625678	7	25334	7	0	next
+Picture	10;101;picpictures//target//teapot.jpeg	hit	2	8775	7	2656345	7	26334	7	0	next
+Picture	11;101;picpictures//nontarget//saddle.jpeg	hit	3	13158	7	2688012	7	25667	7	0	next
+Picture	12;101;picpictures//target//toast.jpeg	hit	2	8188	8	2719012	7	25000	13	0	next
+Picture	0;222;blockend	other				2744013	7	167	13	0	next
+Picture	3; run3_end	other				2744179	7	37337	7	0	next
